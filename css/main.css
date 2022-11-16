@@ -12,7 +12,8 @@ body {
 		#1E2F40 100%);
 	
 
-}
+}	
+
 .container {
 	max-width: 1180px;
 	margin: 0 auto;
@@ -44,7 +45,7 @@ h1 span {
 	margin-bottom: 10px;
 }
 
-p {
+.info {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 19px;
@@ -53,9 +54,10 @@ p {
 	margin-bottom: 42px;
 }
 
- a {
- 	color: #1E2F40;
- 	background: #FBB731;
+.main a,
+.promo a {
+	color: #1E2F40;
+	background: #FBB731;
 	border-radius: 5px;
 	text-decoration: none;
 	padding: 20px 45px;
@@ -64,7 +66,7 @@ p {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 18px;
- }
+}
 
 .burger {
 	width: 829px;
@@ -83,6 +85,138 @@ p {
 	width: 432px;
 	height: 100%;
 	background: linear-gradient(2.42deg, #F37335 -19.6%,
-	 #FBB731 100.79%, #FDC830 100.79%);
+		#FBB731 100.79%, #FDC830 100.79%);
 	margin-left: 186px;
+}
+
+.promo {
+	padding-top: 186px;
+	padding-bottom: 186px;
+}
+.promo-left, 
+.promo-right {
+	flex: 0 0 49%;
+	color: #fff;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.promo-left {
+	background-image: url(../img/burger-sale.png);
+	padding: 116px 50px;
+}
+
+.promo-right {
+	background-image: url(../img/burger-free.png);
+	padding: 102px 50px;
+}
+
+.sale {
+	font-size: 14px;
+	font-weight: 900;
+	background: #F37335;
+	padding: 5px 19px;
+	border-radius: 14px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+
+}
+
+.cost {
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 8px;
+}
+
+.description {
+	color: #FAF9F9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+
+}
+
+.promo-left .description {
+	max-width: 392px;
+}
+
+.promo-right .description {
+	max-width: 300px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.free {
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background: #1E2F40;
+	color: #fff;
+	padding-top: 117px;
+	padding-bottom: 106px;
+
+}
+
+.logo {
+	width: 63px;
+	height: 56px;
+}
+
+.item h2 {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;	
+	line-height: 38px;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	
+}
+
+.item ul,
+.tel ul {
+	list-style-type: none;
+
+}
+.item li {
+	margin-bottom: 9px;
+	font-size: 15px;
+	font-family: 'Open Sans';
+	color: #faf9f9;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.item a {
+	font-style: normal;
+	font-weight: 400;	
+	line-height: 24px;
+	color: #DEDEDE;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.item span {
+	color: #DEDEDE;
+	display: block;
+	font-weight: 400; 
+	margin-bottom: 2px;
+}
+
+.tel ul {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #FBB731;
+}
+.tel li {
+	margin-bottom: 2px;
 }
