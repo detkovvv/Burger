@@ -208,7 +208,7 @@ h1 span {
 	margin-bottom: 2px;
 }
 
-.tel ul {
+.tel a {
 	font-family: 'Nunito Sans';
 	font-style: normal;
 	font-weight: 800;
@@ -216,7 +216,10 @@ h1 span {
 	line-height: 38px;
 	text-transform: uppercase;
 	color: #FBB731;
+	text-decoration: none;
+
 }
 .tel li {
 	margin-bottom: 2px;
 }
+
